@@ -1,0 +1,6 @@
+encore.admin:
+  title: 'Encore Menu'
+  description: 'Menu lien Encore'
+  parent: system.admin_config_development
+  route_name: encore.encore
+  weight: 100

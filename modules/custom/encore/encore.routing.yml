@@ -1,0 +1,16 @@
+encore.encore:
+  path: '/encore'
+  defaults:
+    _controller: '\Drupal\encore\Controller\EncoreController::encore'
+    _title: 'Encore'
+  requirements:
+    _permission: 'access content'
+
+
+encore.encore_form:
+  path: '/encore/contact'
+  defaults:
+    _form: '\Drupal\encore\Form\EncoreForm'
+    _title: 'Encore Form Module'
+  requirements:
+    _permission: 'access content'

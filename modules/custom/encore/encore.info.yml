@@ -1,0 +1,20 @@
+name: Encore Module
+description: Ceci est le module encore
+package: Encore Package
+
+type: module
+core: 8.x
+
+dependencies:
+  - drupal:link
+  - drupal:views
+
+test_dependencies:
+ - drupal:image
+
+
+php: 5.6
+
+hidden: false
+
+configure: encore.encore_form

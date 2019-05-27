@@ -1,0 +1,14 @@
+name: Demo Module
+description: Module de demonstration.
+package: Demo Suite
+
+type: module
+core: 8.x
+
+dependencies:
+  - drupal:link
+  - drupal:views
+
+
+hidden: false
+
