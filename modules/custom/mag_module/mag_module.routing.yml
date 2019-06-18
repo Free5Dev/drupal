@@ -1,0 +1,16 @@
+mag_module.magList:
+  path: '/mag_module'
+  defaults:
+    _controller: '\Drupal\mag_module\Controller\MagController::magList'
+    _title: 'Module de Magellium dans le Controller'
+  requirements:
+    _permission: 'access content'
+
+
+mag_module_form:
+  path: '/mag_form'
+  defaults: 
+    _title: 'Magellium form'
+    _form: '\Drupal\mag_module\Form\MagForm'
+  requirements:
+    _permission: 'access content'

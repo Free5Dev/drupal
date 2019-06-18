@@ -1,0 +1,10 @@
+name: Module Magellium
+description: Module description du contenu Magellium.
+package: Magellium Package
+
+type: module
+core: 8.x
+
+dependencies:
+  -drupal: views
+  

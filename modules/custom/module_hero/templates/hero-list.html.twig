@@ -1,0 +1,13 @@
+{# attachment du css #}
+{{ attach_library('module_hero/hero-style') }}
+
+<h4 class="animated  bounce">{{title}}</h4>
+{# <h4 class="animated bounce">{{title}}</h4> #}
+{# class="animated {{ random(['bounce', 'flash', 'shake', 'jello', 'tada', 'bounceIn']) }} " #}
+
+<ol>
+    {% for item in items %}
+        <li class="animated {{ random(['bounce', 'flash', 'shake', 'jello', 'tada', 'bounceIn']) }} ">{{ item.name }}</li>
+    {% endfor %}
+</ol>
+<span>This is coming from our custom twig file.</span>

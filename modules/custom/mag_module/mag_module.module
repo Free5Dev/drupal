@@ -1,0 +1,21 @@
+<?php 
+/**
+ * @fille
+ * Implements hook_theme().
+ * 
+ */
+/**
+ * Implements hook_theme().
+ */
+
+function mag_module_theme($existing, $type, $theme, $path){
+
+    return [
+        'mag-list' =>[
+            'variables' =>[
+                'title' =>'',
+                'items' =>[]
+            ]
+        ]
+    ];
+}

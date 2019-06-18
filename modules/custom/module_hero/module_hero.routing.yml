@@ -1,0 +1,37 @@
+module_hero.herolist:
+  path: '/herolist'
+  defaults:
+    _controller: '\Drupal\module_hero\Controller\HeroController::heroList'
+    _title: 'Our super heroes list'
+  requirements:
+    _permission: 'access content'
+
+
+module_hero.heroform:
+  path: '/hero-form'
+  defaults:
+    _title: 'Ho winn Hero form'
+    _form: '\Drupal\module_hero\Form\HeroForm'
+  requirements:
+    _permission: 'access content'
+
+
+    
+module_hero.elementform:
+  path: '/element-form'
+  defaults:
+    _title: 'Showcase some Lemenets'
+    _form: '\Drupal\module_hero\Form\ElementForm'
+  requirements:
+    _permission: 'access content'
+
+
+
+   
+module_hero.ajaxheroform:
+  path: '/ajax-form'
+  defaults:
+    _title: 'Ajax hero form'
+    _form: '\Drupal\module_hero\Form\AjaxHeroForm'
+  requirements:
+    _permission: 'access content'
