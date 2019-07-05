@@ -1,0 +1,9 @@
+name: Self Module 
+description: Module Self
+package: Custom Self
+
+type: module
+core: 8.x
+
+dependencies: 
+  -drupal: views

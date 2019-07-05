@@ -1,0 +1,16 @@
+self.content:
+  path: '/self'
+  defaults:
+    _controller: '\Drupal\self\Controller\SelfController::content'
+    _title: 'Self Controller'
+  requirements: 
+    _permission: 'access content'
+
+# routing contact form
+contact.form:
+  path: '/contact'
+  defaults: 
+    _form: '\Drupal\self\form\ContactForm'
+    _title: 'Contact Form Routing'
+  requirements:
+    _permission: 'access content'
